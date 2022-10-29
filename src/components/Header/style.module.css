@@ -1,0 +1,53 @@
+.navigation{
+  background: transparent;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: .5rem 1rem;
+  position: fixed;
+  width: 97%;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #000000e1;
+  top: -.5rem;
+}
+ .logo h2
+{
+    color: whitesmoke;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+}
+ .logo h2 span
+{
+    color: #FFA500;
+}
+
+ .mune ul
+{
+  display: flex;
+  gap: 3rem;
+} .mune ul li
+{
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.mune ul ::after
+{
+    content:'';
+    width: 0;
+    height: .2rem;
+    background: #FFA500;
+    transition: all 0.5s ease;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+ .mune ul :hover:after
+{
+    width: 100%;
+    cursor: pointer;
+}
